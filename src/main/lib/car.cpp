@@ -13,3 +13,14 @@ class Car {
 	}
 
 };
+
+namespace CarNamespace {
+	void display() {
+		std::cout << "via name space Wheels count: " << wheels << ", color: " << color << std::endl;
+	}
+};
+
+typedef struct {
+	int wheels;
+	int type:4;
+} CarStruct;
